@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		237C109F1FD2A62C005A6BA0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C109E1FD2A62C005A6BA0 /* Extensions.swift */; };
+		23AEFF941FDA29EB00CF9FFA /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AEFF931FDA29EB00CF9FFA /* CustomTabBarController.swift */; };
 		23C943581FD1614300F5CB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C943571FD1614300F5CB08 /* AppDelegate.swift */; };
 		23C9435A1FD1614300F5CB08 /* NewsFeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C943591FD1614300F5CB08 /* NewsFeedCollectionViewController.swift */; };
 		23C9435F1FD1614300F5CB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C9435E1FD1614300F5CB08 /* Assets.xcassets */; };
 		23C943621FD1614300F5CB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C943601FD1614300F5CB08 /* LaunchScreen.storyboard */; };
+		23CA70961FD7DB1E0076BDCB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA70951FD7DB1E0076BDCB /* Post.swift */; };
+		23CA70981FD7DBAA0076BDCB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA70971FD7DBAA0076BDCB /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		237C109E1FD2A62C005A6BA0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		23AEFF931FDA29EB00CF9FFA /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		23C943541FD1614300F5CB08 /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C943571FD1614300F5CB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23C943591FD1614300F5CB08 /* NewsFeedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCollectionViewController.swift; sourceTree = "<group>"; };
 		23C9435E1FD1614300F5CB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23C943611FD1614300F5CB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C943631FD1614300F5CB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CA70951FD7DB1E0076BDCB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		23CA70971FD7DBAA0076BDCB /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				23C943571FD1614300F5CB08 /* AppDelegate.swift */,
-				23C943591FD1614300F5CB08 /* NewsFeedCollectionViewController.swift */,
+				23CA70951FD7DB1E0076BDCB /* Post.swift */,
 				237C109E1FD2A62C005A6BA0 /* Extensions.swift */,
+				23CA70971FD7DBAA0076BDCB /* FeedCell.swift */,
+				23AEFF931FDA29EB00CF9FFA /* CustomTabBarController.swift */,
+				23C943591FD1614300F5CB08 /* NewsFeedCollectionViewController.swift */,
 				23C9435E1FD1614300F5CB08 /* Assets.xcassets */,
 				23C943601FD1614300F5CB08 /* LaunchScreen.storyboard */,
 				23C943631FD1614300F5CB08 /* Info.plist */,
@@ -136,8 +145,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				23C9435A1FD1614300F5CB08 /* NewsFeedCollectionViewController.swift in Sources */,
+				23CA70981FD7DBAA0076BDCB /* FeedCell.swift in Sources */,
+				23AEFF941FDA29EB00CF9FFA /* CustomTabBarController.swift in Sources */,
 				237C109F1FD2A62C005A6BA0 /* Extensions.swift in Sources */,
 				23C943581FD1614300F5CB08 /* AppDelegate.swift in Sources */,
+				23CA70961FD7DB1E0076BDCB /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

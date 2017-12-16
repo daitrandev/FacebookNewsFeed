@@ -19,14 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow()
         window?.makeKeyAndVisible()
-        let collectionViewLayout = UICollectionViewFlowLayout()
-        collectionViewLayout.scrollDirection = .vertical
-        let newsFeedCollectionViewController = NewsFeedCollectionViewController(collectionViewLayout: collectionViewLayout)
-        let nav = UINavigationController(rootViewController: newsFeedCollectionViewController)
-        window?.rootViewController = nav
-        
-        nav.navigationBar.barTintColor = UIColor(red: 51/255, green: 90/255, blue: 149/255, alpha: 1)
-        nav.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+
+        window?.rootViewController = CustomTabBarController()
+        UINavigationBar.appearance().barTintColor = UIColor(red: 51/255, green: 90/255, blue: 149/255, alpha: 1)
+        UITabBar.appearance().tintColor = UIColor.rgb(red: 70, green: 146, blue: 250)
         application.statusBarStyle = .lightContent
         
         return true
